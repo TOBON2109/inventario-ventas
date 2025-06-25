@@ -10,7 +10,7 @@ public class InventarioApplication {
 		SpringApplication.run(InventarioApplication.class, args);
 
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler http://localhost:8080/");
 		} catch (Exception e) {
 			e.printStackTrace();
